@@ -1,0 +1,17 @@
+{
+    "intents": [
+        {"tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how are you?"],
+        "responses": ["Hi", "greetings", "What can i do for you?"]
+        },
+        {"tag": "goodbye",
+        "patterns": ["bye", "Thanks"],
+        "responses": ["Bye", "Thanks, bye", "What can i do for you?"]
+        },
+        {"tag": "admission",
+        "patterns": ["How do i get admission in BUK?"],
+        "responses": ["Go to the deans office"]
+        }
+    
+    ]
+}
