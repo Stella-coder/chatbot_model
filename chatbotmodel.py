@@ -189,4 +189,4 @@ if __name__ == "__main__":
     # Watch for document changes in the collection and trigger retraining
     query_watch = intents_ref.on_snapshot(retrain_model)
 
-    app.run()
+    app.run(debug=false, host="0.0.0.0")
